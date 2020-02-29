@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Hotspot Test Site</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="login-form">
+		    <form name="login" action="/test" method="POST">
+          <div class="form-msg">
+            <span class="header-text">Login Form</span>
+              <span class="invert-text"><img src="iconmonstr-wireless-9-240-blue.png" alt="blue wireless image form" width="16" height="16"/>
+              Hotspot
+            </span>
+          </div>
+          <br>
+          <br>
+          <label for="name"></label>
+          <input type="text" name="username" id="username-input" placeholder=
+        "&#128100; Username" class="input-line" required/>
+          <br>
+          <label for="password"></label>
+          <br>
+          <input type="password" name="password" id="password-input" placeholder="&#128274; Password" class="input-line" required/>
+          <br>
+          <label for="message"></label>
+          <br>
+          <button class="sign-in-button" type="submit" id="send-btn" onclick="formTest()">
+              <img src="iconmonstr-door-5-240-white.png" alt="sign in image" width="16" height="16"/>
+              <!-- &#128682; -->
+              Sign in
+          </button>
+          <br>
+          <br>
+          <p class="form-note">Hotspot Management...</p>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <img src="iconmonstr-wireless-9.png" alt="white wireless image footer" width="80" height="80"/>
+      <br>
+      <p>Copyright &copy; 2006 Hotspot</p>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #cccccc;
+}
+
+.main {
+  height: 500px;
+}
+
+.login-form {
+  background-color: #ffffff;
+  border-radius: 4px;
+  width: 30%;
+  min-width: 320px;
+  height: 400px;
+  text-align: center;
+  box-shadow: 2px 2px 4px;
+  margin: 5% auto 0% auto;
+}
+
+.form-msg {
+  background-color: #0066a3;
+  height: 40px;
+  color: #ffffff;
+  border-radius: 4px 4px 0px 0px;
+}
+
+span.header-text, .invert-text {
+  position: relative;
+  top: 20%;
+}
+
+.invert-text {
+  background: linear-gradient(transparent 0, #ffffff 0);
+  color: #0066a3;
+  padding: 3px 3px;
+  border-radius: 5px;
+}
+
+.input-line {
+	height: 30px;
+	width: 245px;
+  font-size: 16px;
+}
+
+.sign-in-button {
+  background-color: #0066a3;
+  color: #ffffff;
+  line-height: 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 35px;
+	width: 250px;
+}
+
+.sign-in-button img {
+  vertical-align: middle;
+}
+
+.form-note {
+  font-size: 0.5em;
+}
+
+.footer {
+  background-color: #0066a3;
+  height: 150px;
+  text-align: center;
+  padding: 50px;
+  color: #ffffff;
+}
